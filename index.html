@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+</html>
+    <head>
+        <meta charset="utf-8">
+        <title>Calculator</title> 
+    </head>
+    <body>
+        <h1>Calculator</h1>
+        <form action="/" method="post">
+            <input type="text" name="num1" placeholder="First number">     <!--placeholder is the text already written in grey color in input box when we click on that box to enter input it disappears-->
+            <input type="text" name="num2" placeholder="Second number">
+            <button type="submit" name="submit">Calculate</button>         <!-- When type="text" and we click on button, it is in same page-->
+                                                                           <!-- When type="submit and we click on button", So, our webpage then will send POST request --that is==> Cannot POST /  , to the server-->  <!--see form action="/" & method="POST"--> 
+                                                                           <!-- To take data from the browser => in cmd do => npm install body parser => body parser will help us to take the data i.e. num1 and num2 comming from the website and we have to parse it and use it-->
+            <!--n--> 
+        </form>
+    </body>
+</html>
